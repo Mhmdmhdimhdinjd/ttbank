@@ -603,6 +603,66 @@ nav {
     -o-border-radius: 0.5rem;
 }
 
+.section__last__events .swiper-container {
+    /* width: ; */
+    height: fit-content;
+}
+
+.section__last__events .swiper-slide {
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    /* max-width: 300px;
+    max-height: 533px; */
+    height: fit-content;
+}
+
+.event__comment {
+    width: 100%;
+    height: fit-content;
+    padding: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0));
+}
+
+.event__comment h4 {
+    color: #fff;
+}
+
+.event__comment h6 {
+    line-height: 1.5rem;
+    color: #ffffffbd;
+}
+
+.last__events__icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.last__events__go__to__page__icon {
+    width: 3rem;
+}
+
+.event__comment__date {
+    width: fit-content;
+    padding: 0.25rem 0.5rem;
+    color: #fff;
+    background-color: #5b5b5b53;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
 @media screen and (max-width:960px) {
     .nav__left {
         display: none;

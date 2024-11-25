@@ -54,3 +54,51 @@ function opentext(event) {
   event.target.parentElement.parentElement.parentElement.classList.toggle('open')
 
 }
+
+var swiper2 = new Swiper(".mySwiper2", {
+  rtl: true,
+  spaceBetween: 30,
+  slidesPerView: 1.1,
+  breakpoints: {
+    // when window width is >= 640px
+    475: {
+      slidesPerView: 1.75, // Show 2 slides for screens >= 960px
+    },
+    // when window width is >= 640px
+    560: {
+      slidesPerView: 2, // Show 2 slides for screens >= 960px
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 2.5, // Show 2 slides for screens >= 960px
+    },
+    // when window width is >= 640px
+    750: {
+      slidesPerView: 2.7, // Show 2 slides for screens >= 960px
+    },
+    // when window width is >= 640px
+    800: {
+      slidesPerView: 2.8, // Show 2 slides for screens >= 960px
+    },
+    // when window width is >= 640px
+    900: {
+      slidesPerView: 2.9, // Show 2 slides for screens >= 960px
+    },
+    // when window width is >= 640px
+    930: {
+      slidesPerView: 3, // Show 2 slides for screens >= 960px
+    },
+    // when window width is >= 640px
+    970: {
+      slidesPerView: 3.5, // Show 2 slides for screens >= 960px
+    },
+    // when window width is >= 640px
+    1000: {
+      slidesPerView: 3.7, // Show 2 slides for screens >= 960px
+    }
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
