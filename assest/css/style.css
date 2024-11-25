@@ -458,9 +458,46 @@ nav {
     column-gap: 0.5rem;
 }
 
-.account__opening__swiper__text{
+.account__opening__swiper__text {
     max-width: 410px;
     width: 100%;
+}
+
+.section__receive__loan {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    justify-items: center;
+}
+
+.section__receive__loan__img2 {
+    display: none;
+    max-width: 23rem;
+    margin: 0 auto;
+}
+
+.section__receive__loan__img {
+    width: 100%;
+    max-width: 20rem;
+}
+
+.section__receive__loan__swiper {
+    display: block;
+    width: 100%;
+    height: 80%;
+}
+
+.section__receive__loan__swiper .swiper {
+    height: 100%;
+}
+
+.section__receive__loan__swiper .swiper-wrapper {
+    height: calc(100% - 2.5rem);
+}
+
+.section__receive__loan__swiper .swiper-pagination {
+    text-align: right;
 }
 
 
