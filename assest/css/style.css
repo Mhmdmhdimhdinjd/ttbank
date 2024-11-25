@@ -795,17 +795,6 @@ footer {
         max-width: 22rem;
     }
 
-}
-
-@media screen and (max-width:771px) {
-
-    .section__support__text {
-        text-align: center;
-    }
-}
-
-@media screen and (max-width:771px) {
-
     .section__receive__loan {
         display: flex;
         flex-direction: column-reverse;
@@ -823,6 +812,11 @@ footer {
     .section__receive__loan .swiper-slide {
         text-align: center;
     }
+
+    .section__support__text {
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width:431px) {
