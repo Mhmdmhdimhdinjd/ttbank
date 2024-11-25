@@ -494,6 +494,23 @@ nav {
     }
 }
 
+@media screen and (max-width:771px) {
+
+    .section__account__opening__swiper .swiper-slide {
+        flex-direction: column-reverse;
+    }
+
+    .account__opening__swiper__left {
+        flex: content;
+    }
+
+    .account__opening__swiper__right {
+        flex: content;
+        max-width: 22rem;
+    }
+
+}
+
 @media screen and (max-width:431px) {
 
     .top__home .first__slide__text {
