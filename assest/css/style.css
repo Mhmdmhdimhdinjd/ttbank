@@ -317,6 +317,119 @@ nav {
     margin: 0 1rem;
 }
 
+.section__option__cards {
+    width: 100%;
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__option__top__cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.option__top__card {
+    width: 100%;
+    max-width: 535px;
+    min-width: 450px;
+    display: flex;
+    grid-template-columns: 40% 60%;
+    background-color: rgb(0, 140, 255);
+    align-items: center;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    overflow: hidden;
+    direction: ltr;
+}
+
+.section__option__top__cards__img {
+    flex: 35;
+    width: 100%;
+    display: block;
+}
+
+/* 
+.section__option__top__cards__img2{
+    display: none;
+} */
+
+.section__option__top__cards__text {
+    flex: 65;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    margin: 0 1.25rem 0 0.5rem;
+}
+
+.top__cards__text__control {
+    text-align: right;
+    width: fit-content;
+    max-width: 300px;
+    height: fit-content;
+    color: #fff;
+}
+
+.top__cards__text__control a button {
+    width: 70%;
+    height: 32px;
+    background-color: #fff;
+    color: rgb(0, 140, 255);
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.section__option__bottom__cards {
+    width: 100%;
+    height: fit-content;
+    margin-top: 3.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.option__bottom__card {
+    direction: rtl;
+    max-width: 372px;
+    width: 100%;
+    min-width: 300px;
+    padding: 0.5rem;
+    background-color: #fff;
+    color: #006c81;
+    border: 2px solid rgb(0, 140, 255);
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.section__account__opening {
+    margin-top: 3.5rem;
+}
+
+.section__option__bottom__cards__img {
+    width: 4rem;
+}
+
+
 @media screen and (max-width:960px) {
     .nav__left {
         display: none;
