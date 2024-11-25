@@ -663,6 +663,85 @@ nav {
     -o-border-radius: 1rem;
 }
 
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top__footer {
+    margin-top: 3rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.top__company__history {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.section__top__footer__logo {
+    width: 35%;
+}
+
+.section__top__footer__icon {
+    width: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.section__company__history {
+    max-width: 35rem;
+}
+
+.section__top__footer__icon img {
+    background-color: aqua;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.comment__company__history {
+    line-height: 2rem;
+}
+
+.bottom__footer {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    width: 100%;
+    direction: rtl;
+}
+
+.bottom__footer__comment {
+    text-align: right;
+    width: fit-content;
+    min-width: 15.5rem;
+}
+
+.bottom__footer__comment p {
+    display: block;
+    margin: 0.75rem 0;
+}
+
+.bottom__footer__comment__img {
+    max-width: 15.5rem;
+}
+
 @media screen and (max-width:960px) {
     .nav__left {
         display: none;
@@ -690,6 +769,14 @@ nav {
     .top__home .first__slide__text {
         padding-right: 0;
         text-align: center;
+    }
+
+    .top__footer {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-content: center;
+        align-items: center;
     }
 }
 
