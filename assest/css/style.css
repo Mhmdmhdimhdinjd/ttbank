@@ -1,0 +1,19 @@
+@font-face {
+    font-family: gandom;
+    src: url(../fonts/gandom-font/Gandom.ttf);
+}
+
+@font-face {
+    font-family: yekan;
+    src: url(../fonts/yekan/BYekan+\ Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: gandom;
+}
+
