@@ -17,7 +17,6 @@
     font-family: gandom;
 }
 
-
 body {
     background-color: rgb(241, 246, 245);
 }
@@ -175,7 +174,61 @@ nav {
     margin: 0.5rem 0;
 }
 
+.top__home .swiper-slide:nth-child(1) {
+    background: #fff;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
 
+.top__home .swiper-slide:nth-child(1) img {
+    max-width: 580px;
+    width: 100%;
+}
+
+.swiper-pagination {
+    margin-top: 1rem;
+    position: static
+}
+
+.swiper-pagination-bullet {
+    height: 1rem;
+    width: 1rem;
+}
+
+.swiper-pagination-bullet-active {
+    width: 2.5rem;
+    border-radius: 0.75rem;
+    -webkit-border-radius: 0.75rem;
+    -moz-border-radius: 0.75rem;
+    -ms-border-radius: 0.75rem;
+    -o-border-radius: 0.75rem;
+}
+
+.top__home .first__slide__text {
+    max-width: 592px;
+    padding-right: 3rem;
+    color: #006c81;
+    text-align: right;
+}
+
+.top__home .first__slide__text p:nth-child(1) {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.top__home .first__slide__text p:nth-child(2) {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
 
 @media screen and (max-width:960px) {
     .nav__left {
@@ -190,4 +243,43 @@ nav {
         left: 0;
         display: flex;
     }
+}
+
+@media screen and (max-width: 898px) {
+
+    .top__home .swiper-slide:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+
+    }
+
+    .top__home .first__slide__text {
+        padding-right: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:431px) {
+
+    .top__home .first__slide__text {
+        margin-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: right;
+    }
+
+    .top__home .first__slide__text p:nth-child(1) {
+        font-size: 1.75rem;
+        font-weight: 700;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .top__home .first__slide__text p:nth-child(2) {
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.75rem;
+    }
+
+
 }
