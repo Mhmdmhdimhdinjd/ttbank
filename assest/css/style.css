@@ -797,6 +797,13 @@ footer {
 
 }
 
+@media screen and (max-width:771px) {
+
+    .section__support__text {
+        text-align: center;
+    }
+}
+
 @media screen and (max-width:431px) {
 
     .top__home .first__slide__text {
